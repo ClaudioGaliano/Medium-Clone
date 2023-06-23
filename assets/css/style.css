@@ -282,13 +282,13 @@ aside {
 
 ul li {
     list-style-type: none;
-    background-color: rgba(242, 242, 242, 1);
-    border: 1px solid rgba(242, 242, 242, 1);
-    border-radius: 100px;
-    padding: 8px 16px;
-    margin-right: 8px;
-    margin-bottom: 10px;
 }
+
+.topics {
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
+}
+
 
 .topics ul {
     display: flex;
@@ -306,6 +306,16 @@ ul li {
 .ulAside a {
     text-decoration: none;
     color: rgba(41, 41, 41, 1);
+    background-color: rgba(242, 242, 242, 1);
+    border: 1px solid rgba(242, 242, 242, 1);
+    border-radius: 100px;
+    padding: 8px 16px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+.ulAside a:hover {
+    background-color: rgb(200, 200, 200);
 }
 
 .moreTopics {
@@ -316,4 +326,24 @@ ul li {
 
 .moreTopics:hover {
     color: rgba(41, 41, 41, 1);
+}
+
+footer {
+    padding: 24px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(117, 117, 117, 1);
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer ul li {
+    margin-right: 26px;
+    margin-bottom: 8px;
 }
