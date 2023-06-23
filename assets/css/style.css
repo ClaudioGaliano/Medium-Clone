@@ -1,0 +1,319 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Spectral:wght@300;400;500;600;700&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Spectral', serif; */
+
+body {
+    min-height: 100vh;
+    color: rgba(41, 41, 41, 1);
+    line-height: 20px;
+}
+
+h2 {
+    font-size: 106px;
+    letter-spacing: -0.05em;
+    color: rgba(8, 8, 8, 1);
+    line-height: 95px;
+    margin-bottom: 35px;
+}
+
+h3 {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 50px;
+    width: 80%;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 13px;
+}
+
+.logo {
+    height: 25px;
+}
+
+header {
+    width: 100%;
+    background: #FFC017;
+    border-bottom: solid 1px rgba(41, 41, 41, 1);
+    /* position: fixed; */
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    margin: 0 64px;
+}
+
+.spaceNav {
+    flex: 1 0 auto;
+}
+
+nav a {
+    margin-right: 25px;
+    cursor: pointer;
+    color: rgba(41, 41, 41, 1);
+    text-decoration: none;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.lastNavElement {
+    margin: 0;
+}
+
+.navButton {
+    color: white;
+    height: 3em;
+    width: 8em;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 99em;
+    border-color: rgba(25, 25, 25, 1);
+    background: rgba(25, 25, 25, 1);
+    cursor: pointer;
+}
+
+.topContentContainer {
+    background: #FFC017;
+    height: 100%;
+    border-bottom: solid 1px rgba(41, 41, 41, 1);
+}
+
+.topText {
+    display: flex;
+    flex-direction: column;
+    padding-top: 93px;
+    padding-bottom: 92px;
+    width: 550px;
+}
+
+.topContent {
+    display: flex;
+    margin: 0 64px;
+}
+
+.topContentBtn {
+    font-size: 20px;
+    width: 213px;
+    padding: 8px 20px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 99em;
+    border-color: rgba(25, 25, 25, 1);
+    background: rgba(25, 25, 25, 1);
+    cursor: pointer;
+}
+
+.svgLetterM {
+    position: absolute;
+    right: 0px;
+    display: block;
+}
+
+/* TRENDING */
+
+.trendingContainer {
+    border-bottom: solid 1px rgb(185 185 185);
+}
+
+.trendingSize {
+    margin: 0 64px;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+.trendingTitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-left: 16px;
+}
+
+.headerCard {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.trendigCard {
+    display: flex;
+    flex-basis: 30.333333%;
+    padding: 0 16px;
+    margin-bottom: 24px;
+}
+
+.cardNumber {
+    color: rgba(230, 230, 230, 1);
+    width: 40px;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 16px;
+}
+
+.imageCard {
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+}
+
+
+.bold {
+    font-weight: 700;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.infoTextCard {
+    font-size: 13px;
+    color: rgba(117, 117, 117, 1);
+    font-weight: 300;
+}
+
+.titleCard {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lastSectionCard {
+    display: flex;
+}
+
+.star {
+    padding-left: 4px;
+}
+
+.headerCard a {
+    text-decoration: none;
+    color: rgba(41, 41, 41, 1);
+ }
+
+ .titleCard a {
+    text-decoration: none;
+    color: rgba(41, 41, 41, 1);
+ }
+
+.trendingIcon {
+    margin-right: 10px;
+}
+
+/* ARTICLES */
+
+.lastSectionArticle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.articlePreview {
+    padding-top: 4px;
+}
+
+.argument {
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 100px;
+    color: rgba(117, 117, 117, 1);
+    padding: 2px 8px;
+    font-size: 13px;
+}
+
+.articleCard {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.articleLeftSide {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.articleImage {
+    width: 215px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.articlesContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 64px;
+}
+
+.articlesSize {
+    width: 55%;
+    padding: 56px 16px;
+}
+
+.infoArticle {
+    display: flex;
+}
+
+.dot {
+    padding: 0 6px;
+}
+
+/* ASIDE */
+
+aside {
+    padding: 56px 0;
+    width: 35%;
+}
+
+ul li {
+    list-style-type: none;
+    background-color: rgba(242, 242, 242, 1);
+    border: 1px solid rgba(242, 242, 242, 1);
+    border-radius: 100px;
+    padding: 8px 16px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+.topics ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.asideTitle {
+    padding-bottom: 16px;
+    font-weight: 500;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.ulAside a {
+    text-decoration: none;
+    color: rgba(41, 41, 41, 1);
+}
+
+.moreTopics {
+    margin-top: 14px;
+    text-decoration: none;
+    color: #1A8917;
+}
+
+.moreTopics:hover {
+    color: rgba(41, 41, 41, 1);
+}
